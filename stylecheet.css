@@ -1,3 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: black;
+    padding-left: 50px;
+}
+
+h1 {
+    color: rgb(255, 0, 43);
+    font-family: monospace;
+    font-size: 50px;
+}
+
+
+html {
+    width: 100%
+}
+
+body {
+    width: 960px;
+    background: rgb(0, 0, 0);
+    margin: 50px auto;
+}
+
+button {
+    background: rgb(0, 13, 88);
+    color: rgb(0, 225, 255);
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    display: block;
+    border: none;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+
+#yourHealth, #compHealth {
+    position: relative;
+    height: 30px;
+    width: 250px;
+    border: rgb(0, 119, 26) 3px solid;
+    border-radius: 3px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+#yourHealthBar, #compHealthBar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: lightgreen;
+}
+
+#announcements {
+    border: rgb(4, 0, 255) 2px solid ;
+    width: 805px;
+    color: white;
+    
+}
+
+#announcements span {
+    color: white;
+}
+
+.knapp {
+    float: left;
+    cursor: pointer;
 }
